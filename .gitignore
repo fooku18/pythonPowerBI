@@ -1,0 +1,7 @@
+.gradle/
+.vscode/
+Include/
+Lib/
+Scripts/
+testJson.json
+pconfig.ini
