@@ -6,9 +6,9 @@ from datetime import datetime, timedelta
 
 # path to the adobe analytics service account private key
 jwt = JWTAuth("C:/users/jschlons/keys/adobe_io_private.key")
-jwt.setIss("9D88879D5579828F7F000101@AdobeOrg")
-jwt.setSub("473A0AFF5C498D430A495E7C@techacct.adobe.com")
-jwt.setClientId("45ec3245e84d4d40978fd8da5eeefc3d")
+jwt.setIss("XXXXX@AdobeOrg")
+jwt.setSub("XXXX@techacct.adobe.com")
+jwt.setClientId("XXXXX")
 # client secret is sensitive, better store it as an evnironment variable 
 jwt.setClientSecret(os.environ.get("ADOBE_CLIENT_SECRET"))
 jwt.setMetascopes("https://ims-na1.adobelogin.com/s/ent_analytics_bulk_ingest_sdk")
