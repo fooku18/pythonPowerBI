@@ -12,7 +12,7 @@ kiwisolver==1.1.0
 lazy-object-proxy==1.4.1
 matplotlib==3.1.0
 mccabe==0.6.1
-numpy==1.16.4
+numpy==1.22.0
 pandas==0.24.2
 pycparser==2.19
 PyJWT==1.7.1
